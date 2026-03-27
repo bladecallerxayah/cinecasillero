@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cine Casillero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="header-topo">
+    <div class="marca">
+      <img src="img/logo.png" alt="Logo Cine Casillero" class="logo-inline">
+      <div class="titulo-area">
+        <h1><span class="vermelho">CINE</span> CASILLERO</h1>
+        <div class="sub">sessões privadas • acesso restrito</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="catalogo-bloco">
+    <h2 class="secao-titulo">Séries</h2>
+    <div id="catalogo-series" class="catalogo"></div>
+  </section>
+
+  <section class="catalogo-bloco">
+    <h2 class="secao-titulo">Filmes</h2>
+    <div id="catalogo-filmes" class="catalogo"></div>
+  </section>
+
+  <section class="catalogo-bloco">
+    <h2 class="secao-titulo">Animação</h2>
+    <div id="catalogo-animacoes" class="catalogo"></div>
+  </section>
+</main>
+
+<div id="modal" class="modal">
+  <div class="modal-content" id="modal-content"></div>
+</div>
+
+<script src="series/american-horror-story.js"></script>
+<script src="series/agents-of-shield.js"></script>
+<script src="series/one-piece.js"></script>
+<script src="series/56-dias.js"></script>
+<script src="series/percy-jackson.js"></script>
+<script src="series/the-chosen.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
